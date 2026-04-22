@@ -1,0 +1,44 @@
+while loop:=
+jab condition-based movement ho
+
+Pattern 1: Two Pointer
+
+int i = 0, j = 0;
+
+while (i < n && j < m) {
+    if (match) {
+        i++; j++;
+    } else {
+        j++;
+    }
+}
+
+Pattern 2: Unknown Iterations
+
+while (n > 0) {
+    n = n / 10;
+}
+
+Tumhe nahi pata kitni baar loop chalega
+👉 condition decide karegi
+
+Pattern 3: Backtracking(lcs scs me)
+
+while (i > 0 && j > 0)
+tum reverse me move kar rahe ho
+kab rukna hai? → jab index 0 ho jaye
+
+
+👉 Isliye for use nahi kar sakte
+
+
+
+## Ye 3 me se koi hai?
+
+pointer move ho raha hai
+condition pe loop depend hai
+pata nahi kitni baar chalega
+
+👉 → while use karo
+
+
