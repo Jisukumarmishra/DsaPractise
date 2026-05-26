@@ -1,0 +1,27 @@
+str.indexOf():=kisi character ya string ki position find karta hai
+lastIndexOf() := Find Last Occurence
+str.toLowerCase()
+str.toUpparCase()
+str.toCharArray(); //Converts string → char array.
+
+
+
+
+String s = "abcdef"; // extract part of string
+System.out.println(s.substring(1,4));
+ans:= bcd
+
+
+trim()
+Removes spaces from start/end.
+
+.isLowerCase()
+.isUpperCase()
+
+
+str.valueOf() // Converts other datatype → String.
+
+
+
+compareTo()
+Lexicographical comparison.
