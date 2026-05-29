@@ -4,6 +4,18 @@ str.toLowerCase()
 str.toUpparCase()
 str.toCharArray(); //Converts string → char array.
 
+map.getOrDefault(key, defaultValue) // for generaly using the occurence of the elemnt in array
+//If key exists → return its value
+//If key doesn't exist → return defaultValue
+
+HashMap<Integer,Integer> map = new HashMap<>();
+System.out.println(
+    map.getOrDefault(2, 0)
+);
+// op:= 0 because 2 doen not exist
+
+
+
 
 
 
@@ -25,3 +37,8 @@ str.valueOf() // Converts other datatype → String.
 
 compareTo()
 Lexicographical comparison.
+
+
+Character.isDigit(ch)
+
+Character.isLetter(ch)
