@@ -1,1 +1,7 @@
 if(str.indexOf(ch) != -1) := Means character exist
+
+// below code is mainly used for the find occurtence of the elment 
+map.put(num, map.getOrDefault(num, 0) + 1);
+// means
+"If the key exists, increase its count.
+If it doesn't exist, start from 0 and make it 1."
