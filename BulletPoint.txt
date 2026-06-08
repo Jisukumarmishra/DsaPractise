@@ -14,3 +14,20 @@ int min = nums[0];
 for (int num : nums) {
   min = Math.min(num, min);
 }
+
+
+
+(4)
+for (int i=0; i<n; i++) {
+int num = nums[i];
+}
+
+or
+
+int i =0;
+while(i<n) {
+  int num = nums[i];
+  i++;
+}
+
+note:= priority queue me n element hai and 1 element add akr rhe hai to tc O(logn) hoga

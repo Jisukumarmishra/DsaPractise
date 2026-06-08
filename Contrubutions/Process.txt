@@ -4,3 +4,7 @@ Set The Original Repo As A UpStream
 --git remote -v
 
 git checkout -b my-first-contribution
+
+
+small changes ke liye tum direct pr create kar sakte ho
+bIg Changes Or Features Create Karne se pahle Issues Generate Karo
