@@ -42,3 +42,23 @@ pata nahi kitni baar chalega
 👉 → while use karo
 
 
+// To Store The GIven Input In The Graph in directed 
+
+
+int n = sc.nextInt();
+int m = sc.nextInt();
+
+ArrayList<Integer>[] graph = new ArrayList[n + 1];
+
+for(int i = 1; i <= n; i++) {
+    graph[i] = new ArrayList<>();
+}
+
+for(int i = 0; i < m; i++) {
+    int u = sc.nextInt();
+    int v = sc.nextInt();
+
+    graph[u].add(v);   // directed edge u -> v
+}
+
+
