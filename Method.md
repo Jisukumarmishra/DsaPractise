@@ -1,4 +1,44 @@
-str.indexOf():=kisi character ya string ki position find karta hai
+# str.indexOf():=kisi character ya string ki position find karta hai
+ArrayList<String> list  = new ArrayList<>(); // list = ["ab", "abc", ------ ]
+
+// calcualte all substring og the given string s
+s = "abcde"
+
+a
+ab
+abc
+abcd
+abcde
+
+b
+bc
+bcd
+bcde
+
+c
+cd
+cde
+
+d
+de
+
+e
+
+
+ for (int i =0; i<n; i++) {
+    for(int j =i+1; j<=n; j++) {
+        list.add(s.substring(i, j));
+    }
+}
+
+for(String str : list) {
+    if(str.indexOf("a") != -1 && str.indexOf("b") != -1 && str.indexOf("c") !=-1) {
+        count++;
+    }
+}
+
+
+
 lastIndexOf() := Find Last Occurence
 str.toLowerCase()
 str.toUpparCase()
