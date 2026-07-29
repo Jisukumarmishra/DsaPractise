@@ -53,3 +53,51 @@ Rule 2: Minimum (Smallest) dhoondhna hai
 Agar tum smallest dhoondh rahe ho, to shuru mein value sabse badi possible honi chahiye.
 
 int smallest = Integer.MAX_VALUE;
+
+# Array me number se uska value acceess karna
+
+int arr [] = {1, 2, 3, 4, 5}
+int index = -1;
+
+for (int i = 0; i < arr.length; i++) {
+if (arr[i] == 5) {
+index = i;
+break;
+}
+}
+
+# continue = "Is baar chhod, agle par ja."
+
+# break = "Bas, loop khatam."
+
+for (int i = 1; i <= 5; i++) {
+if (i == 3) {
+continue;
+}
+System.out.println(i);
+}
+
+// op:-
+1
+2
+4
+5
+
+//for (int i = 1; i <= 5; i++) {
+if (i == 3) {
+break;
+}
+System.out.println(i);
+}
+
+//op:-
+1
+2
+
+# from given string to calculate the freq array of each charc
+
+int [] freq = new int [26];
+
+for( char ch : s.toCharArray()) {
+freq[ch-'a'] ++ ;
+}
