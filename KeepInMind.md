@@ -1,3 +1,26 @@
+# for → jab tumhe pata ho ki kitni baar loop chalana hai.
+
+for(int i = 0; i < n; i++) {
+// n times
+}
+
+# while → jab tumhe nahi pata ki kitni baar loop chalega, bas ek condition tak kaam karna hai.
+
+while(freq[i] > k) {
+freq[i] = freq[i] / 2;
+}
+
+"Mujhe pata hai kitni baar?" → for
+"Mujhe pata nahi, condition false hone tak karna hai?" → while
+
+for(int i = 0; i < n; i++) { // array ke elements → pata hai n times
+
+    while(freq[i] > k) {           // division → kitni baar? pata nahi
+        freq[i] /= 2;
+    }
+
+}
+
 str = str.substring(0, str.length() - 1); // for the removin the last elment form the strig
 
 Java jab String ke saath + dekhti hai to doosri value ko String me convert kar deti hai.
@@ -100,4 +123,17 @@ int [] freq = new int [26];
 
 for( char ch : s.toCharArray()) {
 freq[ch-'a'] ++ ;
+}
+
+# Fastet and Optimal Way To Calculate The freq Array
+
+HashMap<Integer, Integer> freq = new HashMap<>();
+
+freq.put(nums[i], freq.getOrDefault(nums[i], 0) + 1);
+
+# second Way
+
+int freq[] = new int[n];
+for(int i =0; i<n ; i++) {
+freq[nums[i]]++;
 }
