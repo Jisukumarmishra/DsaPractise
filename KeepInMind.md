@@ -21,6 +21,26 @@ for(int i = 0; i < n; i++) { // array ke elements → pata hai n times
 
 }
 
+# While ke Andar jo Condation likha Rahta Hai Jab Tak Vo True Hai Loop chalega
+
+while (condition)
+↓
+TRUE
+↓
+RUN 🔄
+↓
+condition again
+↓
+FALSE
+↓
+STOP 🛑
+
+# while mein hum jo condition maintain karni hai woh nahi likhte.
+
+# Hum likhte hain:
+
+# "Jab tak problem hai, tab tak kya karna hai?"
+
 str = str.substring(0, str.length() - 1); // for the removin the last elment form the strig
 
 Java jab String ke saath + dekhti hai to doosri value ko String me convert kar deti hai.
