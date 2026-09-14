@@ -157,3 +157,22 @@ int freq[] = new int[n];
 for(int i =0; i<n ; i++) {
 freq[nums[i]]++;
 }
+
+# Jab recursion + optimization DP problem ho, often structure hota hai:
+
+solve(state) {
+
+    answer = ...
+
+    for (all possible choices) {
+
+        // make choice
+
+        answer = ...
+
+        // recursive call on smaller state
+    }
+
+    return answer;
+
+}

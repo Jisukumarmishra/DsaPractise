@@ -46,8 +46,8 @@ list.add(word.substring(i, j));
 for(int i=0; i<n; i++){
 for(int j =i; j<m; j++) {
 for(int k =i; k<=j; k++) {
-
-    }
+arr[k]
+}
 
 }
 }
